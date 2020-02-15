@@ -1,9 +1,10 @@
-package com.systemtron.isl
+package com.systemtron.isl.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.systemtron.isl.R
 
 class MainActivity : AppCompatActivity() {
 
