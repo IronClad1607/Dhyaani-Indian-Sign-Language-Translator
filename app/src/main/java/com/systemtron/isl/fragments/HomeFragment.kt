@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 
 import com.systemtron.isl.R
 import com.systemtron.isl.activities.ISLtoTextActivity
@@ -15,25 +16,35 @@ import kotlinx.android.synthetic.main.fragment_home.*
 /**
  * A simple [Fragment] subclass.
  */
-class HomeFragment : Fragment() {
+class HomeFragment : Fragment(),View.OnClickListener {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
 
+        val v = inflater.inflate(R.layout.fragment_home, container, false)
 
-        btnISLtoText.setOnClickListener {
-            val intent = Intent(requireContext(),ISLtoTextActivity::class.java)
-            startActivity(intent)
+        val islToText = v.findViewById<Button>(R.id.btnISLtoText)
+
+        islToText.setOnClickListener(this)
+
+
+
+        return v
+    }
+
+    override fun onClick(v: View?) {
+        when(v?.id){
+            R.id.btnISLtoText -> {
+                startActivity(Intent(requireContext(),ISLtoTextActivity::class.java))
+            }
+
+            else -> {
+
+            }
         }
 
-        btnTexttoISL.setOnClickListener {
-
-        }
-
-
-        return inflater.inflate(R.layout.fragment_home, container, false)
     }
 
 
