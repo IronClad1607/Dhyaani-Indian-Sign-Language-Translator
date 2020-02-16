@@ -2,12 +2,34 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:padding="20dp"
     android:layout_height="match_parent"
     tools:context=".fragments.EduFragment">
 
     <TextView
+        android:id="@+id/tvE1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/to_be_completed" />
+        android:text="@string/http_www_islrtc_nic_in"
+        android:textColor="@android:color/holo_blue_bright" />
+
+
+    <TextView
+        android:id="@+id/tvE2"
+        android:gravity="center|left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/http_isl_nish_ac_in"
+        android:textColor="@android:color/holo_blue_bright"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvE3"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/http_def_org_in_indian_sign_language_classes"
+        android:textColor="@android:color/holo_blue_bright"
+        tools:ignore="RtlHardcoded" />
 
 </FrameLayout>

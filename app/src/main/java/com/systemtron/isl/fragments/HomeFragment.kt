@@ -30,7 +30,7 @@ class HomeFragment : Fragment(), View.OnClickListener {
         val textToISL = v.findViewById<Button>(R.id.btnTexttoISL)
 
         islToText.setOnClickListener(this)
-        textToISL.setOnClickListener(this)
+//        textToISL.setOnClickListener(this)
 
         return v
     }
@@ -41,9 +41,9 @@ class HomeFragment : Fragment(), View.OnClickListener {
                 startActivity(Intent(requireContext(), ISLtoTextActivity::class.java))
             }
 
-            R.id.btnTexttoISL -> {
-                startActivity(Intent(requireContext(), TexttoISL::class.java))
-            }
+//            R.id.btnTexttoISL -> {
+//                startActivity(Intent(requireContext(), TexttoISL::class.java))
+//            }
             else -> {
 
             }

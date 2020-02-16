@@ -10,4 +10,8 @@
     <string name="to_be_completed">To be completed!</string>
     <string name="enter_text">Enter Text:</string>
     <string name="convert">Convert</string>
+    <string name="text">As per Census 2011, in India, out of the 121 Cr population, about 2.68 Cr persons are ‘disabled’ which is 2.21% of the total population. 70 million deaf people around the world use sign language. 98% of deaf people do not receive education in sign language. There are 478 schools receiving government funding, and approximately 372 private schools for the Indian Deaf are scattered throughout India. The Indian Deaf population is not well connected or informed, and many Deaf people do not even know the names of all the schools or clubs for the Deaf within their own city.</string>
+    <string name="http_www_islrtc_nic_in">http://www.islrtc.nic.in/</string>
+    <string name="http_isl_nish_ac_in">http://isl.nish.ac.in/</string>
+    <string name="http_def_org_in_indian_sign_language_classes">http://def.org.in/indian-sign-language-classes/</string>
 </resources>
