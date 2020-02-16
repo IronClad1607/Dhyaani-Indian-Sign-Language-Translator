@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.systemtron.isl">
 
-
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
@@ -14,6 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activities.ConversionActivity"></activity>
+        <activity android:name=".activities.TexttoISL" />
         <activity android:name=".activities.ISLtoTextActivity" />
         <activity android:name=".activities.HomeActivity" />
         <activity android:name=".activities.MainActivity">

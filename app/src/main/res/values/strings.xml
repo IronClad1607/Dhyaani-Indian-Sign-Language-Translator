@@ -8,4 +8,6 @@
     <string name="point_the_camera_at_an_object_to_get_started">Point the camera at an object to get started</string>
     <string name="dhvani">Dhvaani</string>
     <string name="to_be_completed">To be completed!</string>
+    <string name="enter_text">Enter Text:</string>
+    <string name="convert">Convert</string>
 </resources>
